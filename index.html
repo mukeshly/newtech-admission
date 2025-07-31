@@ -13,8 +13,19 @@
     <meta property="og:image" content="" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:site" content="" />
     <meta name="twitter:image" content="" />
+
+    <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' blob:;
+  style-src 'self' 'unsafe-inline';
+  img-src 'self' data: blob:;
+  connect-src *;
+  font-src 'self' data:;
+  object-src 'none';
+  frame-src 'none';
+">
     <script type="module" crossorigin src="/assets/index-DQeHg63p.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CEYg-VXe.css">
   </head>
