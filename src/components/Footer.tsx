@@ -14,6 +14,7 @@ const Footer = () => {
             </div>
             <p className="text-muted-foreground text-sm">
               Your trusted partner for educational success. Guiding students towards their dream careers since years.
+              <br /><strong>Since 2023</strong> 
             </p>
           </div>
 

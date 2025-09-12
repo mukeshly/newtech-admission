@@ -45,12 +45,13 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Text content */}
             <div>
+              <p>Since 2023</p>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 Your Gateway to
                 <span className="text-accent"> Educational Success</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Get guaranteed admission in top colleges and universities across Bihar and India. Expert guidance for all courses.
+                Get guaranteed admission in top colleges and universities across India. Expert guidance for all courses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">

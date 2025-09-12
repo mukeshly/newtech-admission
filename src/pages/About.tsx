@@ -51,7 +51,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About New Tech Admission Consultancy</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Your trusted partner in educational success, dedicated to guiding students towards their dream careers through expert consultation and guaranteed admission services.
+            Your trusted partner in educational success since 2023, dedicated to guiding students towards their dream careers through expert consultation and guaranteed admission services.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ const About = () => {
           <div className="bg-muted/30 rounded-lg p-8 md:p-12">
             <div className="max-w-4xl mx-auto text-center space-y-6">
               <p className="text-lg leading-relaxed">
-                New Tech Admission Consultancy was founded with a simple yet powerful vision: to make quality education accessible to every student in Bihar. Starting from humble beginnings, we recognized the challenges students face in navigating the complex admission processes and securing seats in reputable institutions.
+                New Tech Admission Consultancy was founded in 2023, with a simple yet powerful vision: to make quality education accessible to every student in Bihar. Starting from humble beginnings, we recognized the challenges students face in navigating the complex admission processes and securing seats in reputable institutions.
               </p>
               <p className="text-lg leading-relaxed">
                 Over the years, we have built strong relationships with colleges and universities across Bihar and India, enabling us to provide direct admission pathways for our students. Our success is measured not just in numbers, but in the dreams we help fulfill and the careers we help launch.

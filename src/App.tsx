@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import StickyButtons from "./components/StickyButtons";
 import Home from "./pages/Home";
 import Offerings from "./pages/Offerings";
@@ -18,7 +18,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
-      <BrowserRouter>
+      <BrowserRouter> {/* ✅ Moved here */}
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-1">
@@ -27,12 +27,10 @@ const App = () => (
               <Route path="/offerings" element={<Offerings />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
           <StickyButtons />
-          
           <Footer />
         </div>
       </BrowserRouter>

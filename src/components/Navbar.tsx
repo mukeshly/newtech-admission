@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <GraduationCap className="h-8 w-8 text-primary" />
             <span className="font-bold text-xl text-foreground">
-              New Tech Admission Consultancy
+              New Tech Educational Consultancy
             </span>
           </Link>
 
